@@ -1,0 +1,25 @@
+main {
+  .explor {
+    display: flex;
+
+    .logo {
+      img {
+        width: 100%;
+      }
+    }
+
+    .headings {
+      p {
+        //styleName: H3;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.10000000149011612px;
+        text-align: left;
+      }
+      h2 {
+      }
+    }
+  }
+}
