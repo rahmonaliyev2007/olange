@@ -50,9 +50,9 @@
 }
 
 .navbar.scrolled {
-    // background: linear-gradient(to right, #dc674422 , #ffc25924);
+    background:  #fcd0c241;
     backdrop-filter: blur(5px);
-    box-shadow: inset  0 0 15px 2px #dc6a4475 ;
+    box-shadow: inset  0 0 15px 2px #fcd0c275 ;
     transition: 2s;
     border-radius: 10px;
     width: 90%;
@@ -62,9 +62,56 @@
     }
 
 }
+
+@media screen and (max-width:1200px){
+    .navbar{
+        padding: 0 20px;
+    }
+    .nav-links{
+        column-gap: 20px;
+    }
+    .logo{
+        img{
+            max-width: 80%;
+        }
+    }
+    .navbar.scrolled{
+        img{
+            max-width: 70%;
+        }
+    }
+}
+@media screen and (max-width:900px){
+    .nav-links{
+        column-gap: 15px;
+        a{
+            font-size: 15px;
+        }
+    }
+    .logo{
+        img{
+            max-width: 60%;
+        }
+    }
+    .navbar.scrolled{
+        img{
+            max-width: 60%;
+        }
+    }
+}
 @media (max-width: 578px) {
     .menu-icon {
         display: block;
+    }
+    .logo{
+        img{
+            max-width: 45%;
+        }
+    }
+    .navbar.scrolled{
+        img{
+            max-width: 45%;
+        }
     }
     .nav-links {
         display: none;
