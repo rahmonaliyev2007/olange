@@ -1,6 +1,7 @@
 .Murodil {
     max-width: 1440px;
     display: grid;
+    justify-content: space-between;
     grid-template-columns: auto auto;
 
     .Murodil-left {
@@ -11,7 +12,7 @@
     }
 
     .Murodil-right {
-
+        align-items: center;
         gap: 7px;
 
         .Murodil__subtitle {
