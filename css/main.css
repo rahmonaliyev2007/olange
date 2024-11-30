@@ -34,4 +34,51 @@ ul, ol {
   max-width: 1140px;
   margin: 0px auto;
   padding: 0px 15px;
+  border: 2 px solid red;
+}
+
+footer {
+  width: 1440px;
+  margin: auto;
+  border: 2px solid red;
+  background-image: url(../images/footer_img.png);
+  background-size: cover;
+}
+footer .footer_main {
+  text-align: center;
+  margin: 150px 0px;
+}
+footer .footer_main h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+}
+footer .footer_main p {
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+footer .footer_main .footer_main_button {
+  display: flex;
+  gap: 20px;
+}
+footer .footer_main .footer_main_button .footer_main_button_left button {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 15px;
+  background-color: #FA4A0C;
+  border: 1px solid #FA4A0C;
+  margin-top: 50px;
+  margin-left: 380px;
+}
+footer .footer_main .footer_main_button .footer_main_button_right button {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+  padding: 20px 45px;
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+  margin-top: 50px;
 }/*# sourceMappingURL=main.css.map */
