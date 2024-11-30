@@ -1,7 +1,6 @@
 .footer_bottom {
     width: 1440px;
     margin: auto;
-    border: 2px solid red;
 
     .footer_bottom_main {
         text-align: center;
@@ -15,6 +14,8 @@
         }
 
         .img {
+            margin-top: 30px;
+
             a {
                 img {
                     max-width: 100%;
@@ -28,5 +29,11 @@
             color: #5C5C5C;
             margin-top: 50px;
         }
+    }
+}
+
+@media screen and (max-width:650px) {
+    .footer_bottom .footer_bottom_main {
+        flex-wrap: wrap;
     }
 }

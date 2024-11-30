@@ -1,7 +1,6 @@
 footer {
     width: 1440px;
     margin: auto;
-    border: 2px solid red;
     background-image: url(../images/footer_img.png);
     background-size: cover;
 
@@ -30,12 +29,12 @@ footer {
                 button {
                     font-weight: 700;
                     font-size: 16px;
+                    margin: 50px 0px 0px 380px;
                     color: #ffffff;
                     padding: 20px 40px;
                     border-radius: 15px;
                     background-color: #FA4A0C;
-                    border: 1px solid #FA4A0C margin-top: 50px;
-                    margin-left: 380px;
+                    border: 1px solid #FA4A0C
                 }
             }
 
@@ -51,5 +50,29 @@ footer {
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width:800px) {
+    footer .footer_main .footer_main_button .footer_main_button_left button{
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    footer .footer_main .footer_main_button .footer_main_button_left button{
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    footer .footer_main .footer_main_button .footer_main_button_left button{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    footer .footer_main .footer_main_button .footer_main_button_left button{
+        margin-left: 50px;
     }
 }
