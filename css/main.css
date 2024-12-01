@@ -334,4 +334,41 @@ header .h-btn:last-child {
   .header-bottom img {
     max-width: 50%;
   }
+}
+.Murodil .container {
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.Murodil .container .Murodil-left .Murodil-img {
+  top: 81px;
+  left: 245px;
+}
+.Murodil .container .Murodil-right {
+  align-items: center;
+  gap: 7px;
+}
+.Murodil .container .Murodil-right .Murodil__subtitle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1000000015px;
+  text-align: left;
+  color: #FA4A0C;
+}
+.Murodil .container .Murodil-right .Murodil__title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  color: #252B42;
+}
+.Murodil .container .Murodil-right .Murodil__desc {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  color: #737373;
 }/*# sourceMappingURL=main.css.map */
