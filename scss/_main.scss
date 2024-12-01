@@ -1,6 +1,7 @@
 main {
   .explor {
     display: flex;
+    flex-wrap: wrap;
 
     .logo {
       img {
@@ -10,7 +11,7 @@ main {
 
     .headings {
       p {
-        font-family: Montserrat;
+        font-family: "Roboto", serif;
         font-size: 24px;
         font-weight: 700;
         line-height: 36px;
@@ -18,7 +19,7 @@ main {
         text-align: left;
       }
       h2 {
-        font-family: Montserrat;
+        font-family: "Roboto", serif;
         font-size: 40px;
         font-weight: 700;
         line-height: 57px;
@@ -28,3 +29,17 @@ main {
     }
   }
 }
+
+
+@media screen and (max-width:968px) {
+  
+}
+
+@media screen and (max-width:968px) {
+  
+}
+
+@media screen and (max-width:968px) {
+  
+}
+
