@@ -35,3 +35,58 @@ ul, ol {
   margin: 0px auto;
   padding: 0px 15px;
 }/*# sourceMappingURL=main.css.map */
+.texti{
+  width: Fixed (568px)px;
+  height: Hug (280px)px;
+  margin-top: 259px;
+  
+  
+}
+.texti_p{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  color: #FA4A0C;
+  
+  
+}
+.texti_h2{
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  color: #252B42;
+  
+}
+.texti_p2{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.20000000298023224px;
+  color: #737373;
+  
+}
+.rooming{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+@media screen and ( max-width: 800px) {
+  .texti{
+    grid-template-columns: auto auto;
+  }
+  .container{
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and ( max-width: 500px) {
+  .texti{
+    grid-template-columns: auto;
+  }
+  .container{
+    grid-template-columns: auto;
+  }
+}
