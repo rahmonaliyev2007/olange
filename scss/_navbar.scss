@@ -1,0 +1,148 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    margin: 0 auto;
+    z-index: 99999999;
+    top: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    column-gap: 80px;
+}
+
+.nav-links li {
+    margin: 0 10px;
+    border-bottom: 1px solid transparent;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+.nav-links:hover> :not(:hover){
+    filter: blur(2px);
+    opacity: 0.5;
+}
+.nav-links a:hover {
+    color: rgba(250, 74, 12, 1);
+}
+
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+}
+
+.navbar.scrolled {
+    background:  #fcd0c241;
+    backdrop-filter: blur(5px);
+    box-shadow: inset  0 0 15px 2px #fcd0c275 ;
+    transition: 2s;
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 10px;
+    img{
+        max-width: 70%;
+    }
+
+}
+
+@media screen and (max-width:1200px){
+    .navbar{
+        padding: 0 20px;
+    }
+    .nav-links{
+        column-gap: 20px;
+    }
+    .logo{
+        img{
+            max-width: 80%;
+        }
+    }
+    .navbar.scrolled{
+        img{
+            max-width: 70%;
+        }
+    }
+}
+@media screen and (max-width:900px){
+    .nav-links{
+        column-gap: 15px;
+        a{
+            font-size: 15px;
+        }
+    }
+    .logo{
+        img{
+            max-width: 60%;
+        }
+    }
+    .navbar.scrolled{
+        img{
+            max-width: 60%;
+        }
+    }
+}
+@media (max-width: 578px) {
+    .menu-icon {
+        display: block;
+    }
+    .logo{
+        img{
+            max-width: 45%;
+        }
+    }
+    .navbar.scrolled{
+        img{
+            max-width: 45%;
+        }
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 110%;
+        right: 0;
+        padding: 10px;
+        border-radius:5px;
+
+        a{
+            color: white;
+        }
+    }
+    .nav-links.active {
+        display: flex;
+        background: linear-gradient(to bottom, #dc6744e9 , #ffc259df);
+        backdrop-filter: blur(5px);
+        // box-shadow: -1px -1px 3px 2px #dc67443e, 1px 1px 3px 2px #ffc25931;
+        backdrop-filter: blur(10px);
+        background-color: transparent;
+    }
+    .nav-links li {
+        margin: 10px 0;
+    }
+    .nav-links:hover> :not(:hover){
+        filter: blur(0);
+        opacity: 1;
+    }
+
+    .navbar.scrolled {
+        padding: 5px 10px 5px 0;
+    }
+}
